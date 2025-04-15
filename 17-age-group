@@ -1,0 +1,3 @@
+public String ageGroup(Integer n) {
+    return n <= 1 ? 'Infant' : n > 1 && n <= 14 ? 'Child' : n > 14 && <= 21 ? 'Youth' : 'Adult';
+}
